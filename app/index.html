@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div>
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5</p>
+    <h1>Leonida Platinum</h1>
+    <p class="sub">Every one of the 55 official trophies, with a guide in our own words, a roadmap to the platinum, and a checklist that saves your progress.</p>
+  </div>
+  <div class="progress-box">
+    <div class="progress-num"><span id="earned-count">0</span><span class="of">/ 55</span></div>
+    <div class="progress-bar"><div id="progress-fill"></div></div>
+    <p id="progress-text">0 of 55 earned</p>
+    <p id="progress-pct">0% to the platinum</p>
+  </div>
+</header>
+
+<nav class="controls" aria-label="Filters">
+  <label class="search">Search <input id="search" type="search" placeholder="Trophy name or guide word&hellip;" autocomplete="off"></label>
+  <label>Grade
+    <select id="grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label>Kind
+    <select id="kind">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="missable">Missable</option>
+      <option value="collectibles">Collectibles</option>
+      <option value="activities">Activities</option>
+    </select>
+  </label>
+  <label class="spoiler-toggle"><input id="spoiler" type="checkbox"> Hide story spoilers</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+</nav>
+
+<div class="info-grid">
+<section class="roadmap" aria-label="Roadmap to the platinum">
+  <h2>Roadmap to the platinum</h2>
+  <p class="roadmap-intro">Five stages, in order. Story first, then the character strands, then activities, then combat and heists, then collectibles and cleanup. The platinum pops when the last of the other 54 does.</p>
+  <ol class="stages">
+    <li><strong>Stage 1 &mdash; Story.</strong> Play Chapters 1&ndash;4 and the final mission (trophies 2&ndash;14). Do the missable trophies before the final mission, because the story ends there.</li>
+    <li><strong>Stage 2 &mdash; Character strands.</strong> Finish the final missions for Andy, Kenton, Billy, Randy and Tyrone, and 8 stranger mission strands across Leonida (trophies 22&ndash;27).</li>
+    <li><strong>Stage 3 &mdash; Activities.</strong> Races, the shooting range, fishing, the arcade, meditation, hunting and the challenge list (trophies 15&ndash;21, 28&ndash;29, 32).</li>
+    <li><strong>Stage 4 &mdash; Combat and heists.</strong> Wanted escapes, shop and bank robberies, armored trucks, Combat Focus and gang operations (trophies 33&ndash;41, 43, 45).</li>
+    <li><strong>Stage 5 &mdash; Collectibles and cleanup.</strong> Cards, WAiNK spots, vehicles, exploration, money and garages (trophies 30&ndash;31, 35, 42, 52&ndash;55), then 100% completion and the platinum.</li>
+  </ol>
+</section>
+
+<section class="missables" aria-label="Missable trophies">
+  <h2>Missable trophies &mdash; do these before the point of no return</h2>
+  <p>Five trophies can be missed. Three of them have an exact trigger the community has not fully confirmed yet, so each one is marked honestly below. Check the cited guide before the moment passes.</p>
+  <ul id="missable-list"></ul>
+</section>
+</div>
+
+<main>
+  <h2 id="list-heading">All 55 trophies</h2>
+  <p id="list-count"></p>
+  <div id="cards"></div>
+</main>
+
+<footer>
+  <h2>Sources</h2>
+  <p>Trophy names, descriptions and grades are the official PlayStation 5 list, as published (55 trophies, 1 platinum, 2 gold, 6 silver, 46 bronze). Every guide is written in our own words for this entry. Where a method comes from the community, the trophy cites it: Exophase, PSNProfiles, PowerPyx and Push Square trophy guides. No Rockstar Games logo, official artwork or game screenshot is used anywhere in this guide; the look is our own.</p>
+  <p class="note">Guides marked &ldquo;exact trigger unconfirmed&rdquo; are honest about it: the official description does not spell out the trigger, and the community guides had not pinned it down when this was written. Check the cited source before you attempt one.</p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
